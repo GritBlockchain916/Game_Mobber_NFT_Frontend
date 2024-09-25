@@ -1,0 +1,38 @@
+.roths {
+    background : red;
+}
+
+.hehe {
+    background : blue;
+}
+
+@font-face {
+    font-family: 'Horizon';
+    src: url('./assets/fonts/Horizon-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Horizon', sans-serif;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-top: 4px solid #3498db; /* Blue color for the spinner */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite; /* Animation properties */
+    margin-right: 8px; /* Space between spinner and text */
+    display: inline-block;
+  }

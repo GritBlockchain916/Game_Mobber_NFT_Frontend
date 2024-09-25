@@ -1,0 +1,11 @@
+/node_modules
+/.expo
+/.netlify
+/.style
+ExpoParty/Secret.js
+release/builds
+.vscode
+/web-build
+/web-report
+yarn.lock
+package-lock.json
